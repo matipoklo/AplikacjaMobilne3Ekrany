@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewNazwisko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="572dp"
+        android:text="Nazwisko"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewNameValue"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textViewImie"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toRightOf="@id/textViewImie"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewImie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="612dp"
+        android:text="Imie:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewEmailValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textViewNazwisko"
+        android:layout_marginLeft="294dp"
+        android:layout_toRightOf="@id/textViewNazwisko"
+        android:textSize="20sp" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+</RelativeLayout>

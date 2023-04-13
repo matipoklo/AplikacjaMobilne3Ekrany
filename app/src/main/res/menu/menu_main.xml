@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_user_info"
+        android:title="Informacje u uzytkowniku"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_assessment_table"
+        android:title="Tabela ocen"
+        app:showAsAction="ifRoom" />
+
+</menu>
